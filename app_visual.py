@@ -2,58 +2,88 @@ import streamlit as st
 import requests
 import pandas as pd
 from datetime import date
-import time
 
-# 1. CONFIGURAÇÃO DA PÁGINA
+# 1. CONFIGURAÇÃO
 st.set_page_config(page_title="Tutory - Gestão Fiscal", layout="wide")
 
-# LINK DA SUA API (VERIFIQUE SE ESTÁ EXATAMENTE ASSIM)
 API_URL = "https://api-gestao-estudos.onrender.com"
 
-# 2. FUNÇÃO DE BUSCA ROBUSTA (O SEGREDO)
+# --- FUNÇÃO DE BUSCA SEGURA ---
 def buscar_dados_seguro(endpoint):
-    url = f"{API_URL}/{endpoint}"
     try:
-        # Tentamos a conexão com um tempo de espera (timeout) e ignorando erros de SSL comuns em nuvem
-        response = requests.get(url, timeout=20, verify=True) 
+        # Timeout curto para não travar a tela se o Render estiver dormindo
+        response = requests.get(f"{API_URL}/{endpoint}", timeout=10)
         if response.status_code == 200:
             return response.json()
         return []
-    except Exception as e:
-        # Se der erro, ele nos avisa o que é na tela de log
+    except:
         return None
 
-# --- INTERFACE ---
+# --- SIDEBAR ---
 st.sidebar.title("🎯 Tutory")
-menu = st.sidebar.radio("Navegação", ["📅 Planner de Hoje", "⏱️ Cronômetro", "📊 Meu Progresso"])
+menu = st.sidebar.radio("Navegação", ["📅 Planner", "⏱️ Cronômetro", "📊 Progresso"])
 
-if menu == "📅 Planner de Hoje":
+# --- TELA: PLANNER ---
+if menu == "📅 Planner":
     st.header(f"📅 Planejamento: {date.today().strftime('%d/%m/%Y')}")
     
-    # Metas Visuais
-    st.subheader("🚀 Minhas Metas")
+    # METAS (Estáticas por enquanto para não dar erro)
     m1, m2, m3 = st.columns(3)
-    m1.metric("Meta do Dia", "4h Líquidas", "Foco!")
-    m2.metric("Meta da Semana", "24h", "No ritmo")
+    m1.metric("Meta do Dia", "4h Líquidas")
+    m2.metric("Meta da Semana", "24h")
+    m3.metric("Meta do Mês", "100h")
     
-    # Tentativa de carregar os dados
-    with st.spinner("Sincronizando com o Render..."):
+    st.divider()
+    
+    with st.spinner("Sincronizando..."):
         aulas = buscar_dados_seguro("planner/hoje")
-        # Damos um segundo para o Streamlit processar
-        if aulas is None:
-            st.warning("⚠️ O sistema está tentando acordar o servidor. Se não carregar em 10 segundos, clique no botão abaixo.")
-            if st.button("🔄 Forçar Sincronização"):
-                st.rerun()
-        elif not aulas:
-            st.success("✅ Sem pendências para hoje!")
-        else:
-            st.subheader("Disciplinas Sugeridas")
-            cols = st.columns(len(aulas))
-            for i, aula in enumerate(aulas):
-                with cols[i]:
-                    st.info(f"**{aula['disciplina']}**\n\n{aula['assunto']}")
-                    if st.button(f"🎯 Iniciar", key=f"btn_{i}"):
-                        st.session_state.aula_selecionada = aula
-                        st.toast("Pronto! Vá para o Cronômetro.")
+    
+    if aulas is None:
+        st.warning("🔌 O servidor está acordando. Aguarde 15 segundos e clique em atualizar.")
+        if st.button("🔄 Atualizar"): st.rerun()
+    elif len(aulas) == 0:
+        st.success("✅ Tudo em dia por aqui!")
+    else:
+        # Criando os cards de forma segura
+        cols = st.columns(len(aulas))
+        for i, aula in enumerate(aulas):
+            with cols[i]:
+                # O segredo: .get() evita o erro se a chave não existir
+                disciplina = aula.get('disciplina', 'Matéria')
+                assunto = aula.get('assunto', 'Assunto não carregado')
+                
+                st.markdown(f"""
+                <div style="border: 2px solid #2e7bcf; border-radius: 10px; padding: 15px; background-color: #f8f9fa;">
+                    <h4 style="margin:0; color: #2e7bcf;">{disciplina}</h4>
+                    <p style="font-size: 0.9em;">{assunto}</p>
+                </div>
+                """, unsafe_allow_html=True)
+                
+                if st.button(f"🎯 Estudar", key=f"btn_{i}"):
+                    st.session_state.aula_selecionada = aula
+                    st.toast("Selecionado! Vá para o Cronômetro.")
 
-# (Mantenha o resto do código de Cronômetro e Progresso que já tínhamos)
+# --- TELA: CRONÔMETRO ---
+elif menu == "⏱️ Cronômetro":
+    st.header("⏱️ Cronômetro")
+    if 'aula_selecionada' not in st.session_state:
+        st.warning("⚠️ Selecione uma matéria no Planner primeiro!")
+    else:
+        aula = st.session_state.aula_selecionada
+        st.info(f"📚 Estudando: **{aula.get('disciplina')}**")
+        
+        c1, c2 = st.columns(2)
+        with c1:
+            tempo = st.number_input("Minutos Líquidos", 0, 300, 60)
+        with c2:
+            questoes = st.number_input("Questões", 0, 100, 0)
+            acertos = st.number_input("Acertos", 0, 100, 0)
+        
+        if st.button("🚀 Finalizar e Salvar"):
+            # Aqui vai o código do POST que já temos
+            st.success("Sessão salva (Simulação)!")
+
+# --- TELA: PROGRESSO ---
+elif menu == "📊 Progresso":
+    st.header("📊 Desempenho")
+    st.write("Aqui aparecerão seus gráficos assim que você salvar as primeiras sessões!")
