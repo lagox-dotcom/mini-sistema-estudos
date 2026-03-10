@@ -32,3 +32,11 @@ app.include_router(planner.router)
 @app.get("/")
 def root():
     return {"mensagem": "Motor de estudos 100% operante!"}
+
+import os
+
+@app.get("/setup-banco")
+def setup_banco():
+    # Isso faz o Render rodar o script por dentro da própria rede dele!
+    os.system("python importar_base.py")
+    return {"mensagem": "Ordem de importação executada por dentro da nuvem!"}
