@@ -1,0 +1,213 @@
+﻿Aula;Matéria;Assunto;Status;Dificuldade
+0;Português;Ortografia oficial. Acentuação gráfica.;Não Iniciado;⭐
+1;Português;Classes de palavras I: substantivo adjetivo advérbios artigo numeral interjeição.;Em progresso;⭐
+2;Português;Classes de palavras II: preposição e conjunção.;Concluído;⭐
+3;Português;Classes de palavras III: pronomes. Colocação pronominal;Não Iniciado;⭐
+4;Português;Classes de palavras IV: verbos;Não Iniciado;⭐
+5;Português;Correlação e vozes verbais;Não Iniciado;⭐
+6;Português;Estrutura e formação das palavras;Não Iniciado;⭐
+7;Português;Sintaxe da oração: termos da oração;Não Iniciado;⭐
+8;Português;Relações de coordenação e subordinação;Não Iniciado;⭐
+9;Português;Pontuação.;Não Iniciado;⭐
+10;Português;Concordância Verbal e Nominal.;Não Iniciado;⭐
+11;Português;Regência verbal e nominal. Crase.;Não Iniciado;⭐
+12;Português;Coesão e coerência;Não Iniciado;⭐
+13;Português;Semântica. Significação das palavras. Figuras de linguagem;Não Iniciado;⭐
+14;Português;Compreensão e interpretação de textos. Tipologia textual.;Não Iniciado;⭐
+15;Português;Variação linguística;Não Iniciado;⭐
+16;Português;Resumo;Não Iniciado;⭐
+0;RLM;"Estruturas Lógicas (Proposições; Conectivos; Tabelas-verdade)";Não Iniciado;⭐⭐
+1;RLM;Equivalências Lógicas (Leis de Morgan);Não Iniciado;⭐⭐
+2;RLM;Diagramas Lógicos;Não Iniciado;⭐⭐
+3;RLM;Lógica de Primeira Ordem;Não Iniciado;⭐⭐
+4;RLM;Argumentação Lógica;Não Iniciado;⭐⭐
+5;RLM;Raciocínio Crítico Parte I;Não Iniciado;⭐⭐
+6;RLM;Raciocínio Crítico Parte II;Não Iniciado;⭐⭐
+7;RLM;"Verdades e Mentiras; Associação Lógica";Não Iniciado;⭐⭐
+8;RLM;Orientação Espacial e Temporal;Não Iniciado;⭐⭐
+9;RLM;Operações com números inteiros, fracionários e decimais;Não Iniciado;⭐⭐
+10;RLM;MMC e MDC e Divisibilidade;Não Iniciado;⭐⭐
+11;RLM;Sistema Métrico;Não Iniciado;⭐⭐
+12;RLM;Conjuntos: Classificação, operações e problemas;Não Iniciado;⭐⭐
+13;RLM;Médias: Aritmética, Geométrica e Harmônica;Não Iniciado;⭐⭐
+14;RLM;Razão e Proporção;Não Iniciado;⭐⭐
+15;RLM;Regra de Três Simples e Composta;Não Iniciado;⭐⭐
+16;RLM;Porcentagem;Não Iniciado;⭐⭐
+17;RLM;Equação do 1º e do 2º grau;Não Iniciado;⭐⭐
+18;RLM;Resolução de Problemas Aritméticos;Não Iniciado;⭐⭐
+19;RLM;Funções;Não Iniciado;⭐⭐
+20;RLM;Logaritmos;Não Iniciado;⭐⭐
+21;RLM;Matrizes, Determinantes e Sistemas Lineares;Não Iniciado;⭐⭐
+22;RLM;Sequências Numéricas;Não Iniciado;⭐⭐
+23;RLM;Progressão Aritmética e Geométrica;Não Iniciado;⭐⭐
+24;RLM;Geometria Básica;Não Iniciado;⭐⭐
+25;RLM;Trigonometria;Não Iniciado;⭐⭐
+26;RLM;Juros Simples;Não Iniciado;⭐⭐
+27;RLM;Juros Compostos;Não Iniciado;⭐⭐
+28;RLM;Descontos;Não Iniciado;⭐⭐
+29;RLM;Inflação, juros reais e aparentes;Não Iniciado;⭐⭐
+30;RLM;Equivalência de capitais;Não Iniciado;⭐⭐
+31;RLM;Sistemas de amortização;Não Iniciado;⭐⭐
+32;RLM;Análise de Investimentos;Não Iniciado;⭐⭐
+0;TI;Análise de Informações - Pirâmide DIKW. Metadados.;Não Iniciado;⭐⭐⭐
+1;TI;Conceitos Básicos de Bancos de Dados;Não Iniciado;⭐⭐⭐
+2;TI;Modelagem Conceitual;Não Iniciado;⭐⭐⭐
+3;TI;Modelagem Lógica;Não Iniciado;⭐⭐⭐
+4;TI;Normalização;Não Iniciado;⭐⭐⭐
+5;TI;Noções de SQL;Não Iniciado;⭐⭐⭐
+6;TI;Data Warehouse (DW) e Business Intelligence (BI);Não Iniciado;⭐⭐⭐
+7;TI;Modelagem Multidimensional;Não Iniciado;⭐⭐⭐
+8;TI;Mineração de Dados (Data Mining);Não Iniciado;⭐⭐⭐
+9;TI;Mineração de Dados (Algoritmos);Não Iniciado;⭐⭐⭐
+10;TI;Noções de Big Data;Não Iniciado;⭐⭐⭐
+11;TI;Soluções de Big Data;Não Iniciado;⭐⭐⭐
+12;TI;Ferramentas de Análise (PowerBI, QlikView...);Não Iniciado;⭐⭐⭐
+13;TI;Machine Learning;Não Iniciado;⭐⭐⭐
+14;TI;Processamento de Linguagem Natural (PLN);Não Iniciado;⭐⭐⭐
+15;TI;Análise Exploratória de Dados;Não Iniciado;⭐⭐⭐
+16;TI;Programação - Python;Não Iniciado;⭐⭐⭐
+17;TI;Programação - Bibliotecas de Python;Não Iniciado;⭐⭐⭐
+18;TI;Programação - R;Não Iniciado;⭐⭐⭐
+19;TI;BPM - Processos de Negócio;Não Iniciado;⭐⭐⭐
+20;TI;Notação BPMN;Não Iniciado;⭐⭐⭐
+21;TI;PMBOK 7;Não Iniciado;⭐⭐⭐
+22;TI;COBIT 2019;Não Iniciado;⭐⭐⭐
+23;TI;ITIL 4;Não Iniciado;⭐⭐⭐
+24;TI;CMMI 2.0;Não Iniciado;⭐⭐⭐
+25;TI;MPS.BR 2021;Não Iniciado;⭐⭐⭐
+26;TI;PETI, SWOT, PDCA e BSC;Não Iniciado;⭐⭐⭐
+27;TI;Lei Geral de Proteção de Dados (LGPD);Não Iniciado;⭐⭐⭐
+28;TI;ISO/IEC 27001;Não Iniciado;⭐⭐⭐
+29;TI;ISO/IEC 27002;Não Iniciado;⭐⭐⭐
+30;TI;Computação em Nuvem;Não Iniciado;⭐⭐⭐
+31;TI;NFE/EFD - Parte 1;Não Iniciado;⭐⭐⭐
+32;TI;NFE/EFD - Parte 2;Não Iniciado;⭐⭐⭐
+33;TI;Engenharia de Software - Metodologias I;Não Iniciado;⭐⭐⭐
+34;TI;Engenharia de Software - Metodologias II;Não Iniciado;⭐⭐⭐
+35;TI;Metodologias Ágeis;Não Iniciado;⭐⭐⭐
+36;TI;Scrum;Não Iniciado;⭐⭐⭐
+37;TI;XP;Não Iniciado;⭐⭐⭐
+38;TI;Engenharia de Requisitos;Não Iniciado;⭐⭐⭐
+39;TI;UML;Não Iniciado;⭐⭐⭐
+40;TI;Testes de Software;Não Iniciado;⭐⭐⭐
+41;TI;Formatos de Intercâmbio (CSV, XML, JSON);Não Iniciado;⭐⭐⭐
+42;TI;Arquitetura Web e Hexagonal;Não Iniciado;⭐⭐⭐
+43;TI;Web Services;Não Iniciado;⭐⭐⭐
+44;TI;Padrões de Projeto;Não Iniciado;⭐⭐⭐
+45;TI;Análise de Pontos de Função (APF);Não Iniciado;⭐⭐⭐
+46;TI;Portais Corporativos;Não Iniciado;⭐⭐⭐
+47;TI;GED - Gestão Eletrônica de Documentos;Não Iniciado;⭐⭐⭐
+48;TI;Qualidade de Dados;Não Iniciado;⭐⭐⭐
+0;Dir. Constitucional;Conceito, Aplicabilidade e Princípios Fundamentais;Não Iniciado;⭐
+1;Dir. Constitucional;Aplicação no Tempo e Interpretação;Não Iniciado;⭐
+2;Dir. Constitucional;Teoria Geral dos Direitos Fundamentais;Não Iniciado;⭐
+3;Dir. Constitucional;Direitos e Deveres Individuais (Parte I);Não Iniciado;⭐
+4;Dir. Constitucional;Direitos e Deveres Individuais (Parte II);Não Iniciado;⭐
+5;Dir. Constitucional;Direitos Sociais;Não Iniciado;⭐
+6;Dir. Constitucional;Nacionalidade;Não Iniciado;⭐
+7;Dir. Constitucional;Direitos Políticos;Não Iniciado;⭐
+8;Dir. Constitucional;Partidos Políticos;Não Iniciado;⭐
+9;Dir. Constitucional;Organização do Estado;Não Iniciado;⭐
+10;Dir. Constitucional;Administração Pública;Não Iniciado;⭐
+11;Dir. Constitucional;Poder Legislativo;Não Iniciado;⭐
+12;Dir. Constitucional;Processo Legislativo e Reforma;Não Iniciado;⭐
+13;Dir. Constitucional;Poder Executivo;Não Iniciado;⭐
+14;Dir. Constitucional;Poder Judiciário;Não Iniciado;⭐
+15;Dir. Constitucional;Funções Essenciais à Justiça;Não Iniciado;⭐
+16;Dir. Constitucional;Sistema Tributário Nacional;Não Iniciado;⭐
+17;Dir. Constitucional;Orçamento e Finanças;Não Iniciado;⭐
+18;Dir. Constitucional;Ordem Econômica e Financeira;Não Iniciado;⭐
+19;Dir. Constitucional;Ordem Social;Não Iniciado;⭐
+20;Dir. Constitucional;Disposições Gerais e Transitórias;Não Iniciado;⭐
+21;Dir. Constitucional;Controle de Constitucionalidade;Não Iniciado;⭐⭐⭐
+0;Dir. Administrativo;Princípios da Administração;Não Iniciado;⭐
+1;Dir. Administrativo;Estado, Governo e Administração Pública;Não Iniciado;⭐
+2;Dir. Administrativo;Organização Administrativa (Parte 1);Não Iniciado;⭐
+3;Dir. Administrativo;Organização Administrativa (Parte 2);Não Iniciado;⭐
+4;Dir. Administrativo;Paraestatais e Terceiro Setor;Não Iniciado;⭐
+5;Dir. Administrativo;Poderes e Deveres do Administrador;Não Iniciado;⭐
+6;Dir. Administrativo;Atos Administrativos;Não Iniciado;⭐⭐⭐
+7;Dir. Administrativo;Licitações (Lei 14.133 - Parte 1);Não Iniciado;⭐⭐⭐
+8;Dir. Administrativo;Licitações (Lei 14.133 - Parte 2);Não Iniciado;⭐⭐⭐
+9;Dir. Administrativo;Contratos Administrativos (Lei 14.133);Não Iniciado;⭐⭐⭐
+10;Dir. Administrativo;Serviços Públicos;Não Iniciado;⭐⭐
+11;Dir. Administrativo;Controle da Administração Pública;Não Iniciado;⭐⭐
+12;Dir. Administrativo;Responsabilidade Civil do Estado;Não Iniciado;⭐⭐
+13;Dir. Administrativo;Agentes Públicos;Não Iniciado;⭐⭐
+14;Dir. Administrativo;Processo Administrativo;Não Iniciado;⭐⭐
+15;Dir. Administrativo;Improbidade Administrativa e Lei Anticorrupção;Não Iniciado;⭐⭐
+16;Dir. Administrativo;Lei de Acesso à Informação (LAI);Não Iniciado;⭐⭐
+0;Dir. Tributário;Conceito de Tributos;Não Iniciado;⭐⭐
+1;Dir. Tributário;Princípios Tributários;Não Iniciado;⭐⭐
+2;Dir. Tributário;Imunidade Tributária;Não Iniciado;⭐⭐
+3;Dir. Tributário;Competência Tributária;Não Iniciado;⭐⭐
+4;Dir. Tributário;Legislação Tributária;Não Iniciado;⭐⭐
+5;Dir. Tributário;Obrigação Tributária;Não Iniciado;⭐⭐
+6;Dir. Tributário;Responsabilidade Tributária;Não Iniciado;⭐⭐
+7;Dir. Tributário;Crédito Tributário: Constituição e Lançamento;Não Iniciado;⭐⭐
+8;Dir. Tributário;Suspensão da Exigibilidade;Não Iniciado;⭐⭐
+9;Dir. Tributário;Extinção do Crédito Tributário;Não Iniciado;⭐⭐
+10;Dir. Tributário;Exclusão do Crédito Tributário;Não Iniciado;⭐⭐
+11;Dir. Tributário;Garantias e Privilégios;Não Iniciado;⭐⭐
+12;Dir. Tributário;Administração e Fiscalização Tributária;Não Iniciado;⭐⭐
+13;Dir. Tributário;Tributos Federais;Não Iniciado;⭐⭐
+14;Dir. Tributário;Tributos Estaduais;Não Iniciado;⭐⭐
+15;Dir. Tributário;Tributos Municipais;Não Iniciado;⭐⭐
+16;Dir. Tributário;IBS;Não Iniciado;⭐⭐⭐
+17;Dir. Tributário;CBS;Não Iniciado;⭐⭐⭐
+18;Dir. Tributário;Repartição de Receitas;Não Iniciado;⭐⭐
+19;Dir. Tributário;Simples Nacional;Não Iniciado;⭐⭐
+20;Dir. Tributário;Execução Fiscal;Não Iniciado;⭐⭐
+21;Dir. Tributário;Crimes contra a Ordem Tributária;Não Iniciado;⭐⭐
+22;Dir. Tributário;Reforma Tributária (Extra);Não Iniciado;⭐⭐⭐
+0;Contabilidade Geral;Aspectos introdutórios;Não Iniciado;⭐⭐⭐
+1;Contabilidade Geral;Patrimônio;Não Iniciado;⭐⭐⭐
+2;Contabilidade Geral;Contas;Não Iniciado;⭐⭐⭐
+3;Contabilidade Geral;Fatos contábeis;Não Iniciado;⭐⭐⭐
+4;Contabilidade Geral;Escrituração;Não Iniciado;⭐⭐⭐
+5;Contabilidade Geral;Demonstrações Contábeis: Aspectos Gerais e Balanço Patrimonial;Não Iniciado;⭐⭐⭐
+6;Contabilidade Geral;Demonstração do Resultado do Exercício;Não Iniciado;⭐⭐⭐
+7;Contabilidade Geral;Reservas e Dividendos;Não Iniciado;⭐⭐⭐
+8;Contabilidade Geral;Demonstração de Lucros ou Prejuízos Acumulados;Não Iniciado;⭐⭐⭐
+9;Contabilidade Geral;Demonstração de Mutações do Patrimônio Líquido;Não Iniciado;⭐⭐⭐
+10;Contabilidade Geral;Apresentação das Demonstrações Contábeis (CPC 26);Não Iniciado;⭐⭐⭐
+11;Contabilidade Geral;Demonstração dos Fluxos de Caixa (CPC 03);Não Iniciado;⭐⭐⭐
+12;Contabilidade Geral;Demonstração do Valor Adicionado (CPC 09);Não Iniciado;⭐⭐⭐
+13;Contabilidade Geral;Estoques: Tipos de inventários e métodos de Avaliação;Não Iniciado;⭐⭐⭐
+14;Contabilidade Geral;Estrutura Conceitual (CPC 00 – R2);Não Iniciado;⭐⭐⭐
+15;Contabilidade Geral;Princípios de Contabilidade;Não Iniciado;⭐⭐⭐
+16;Contabilidade Geral;Tópicos Selecionados da Lei 6.404/76;Não Iniciado;⭐⭐⭐
+17;Contabilidade Geral;Estoques (CPC 16);Não Iniciado;⭐⭐⭐
+18;Contabilidade Geral;Ativo Imobilizado (CPC 27);Não Iniciado;⭐⭐⭐
+19;Contabilidade Geral;Ativos Intangíveis (CPC 04);Não Iniciado;⭐⭐⭐
+20;Contabilidade Geral;Redução ao Valor Recuperável de Ativos (CPC 01);Não Iniciado;⭐⭐⭐
+21;Contabilidade Geral;Provisões Passivos Contingentes e Ativos Contingentes (CPC 25);Não Iniciado;⭐⭐⭐
+22;Contabilidade Geral;Arrendamentos (CPC 06);Não Iniciado;⭐⭐⭐
+23;Contabilidade Geral;Investimentos em Coligadas e Controladas (CPC 18);Não Iniciado;⭐⭐⭐
+24;Contabilidade Geral;Ajuste a Valor Presente (CPC 12);Não Iniciado;⭐⭐⭐
+25;Contabilidade Geral;Ativo Não Circulante Mantido para Venda (CPC 31);Não Iniciado;⭐⭐⭐
+26;Contabilidade Geral;Propriedade para Investimento (CPC 28);Não Iniciado;⭐⭐⭐
+27;Contabilidade Geral;Políticas Contábeis Mudança de Estimativa e Retificação de Erro (CPC 23);Não Iniciado;⭐⭐⭐
+28;Contabilidade Geral;Mensuração do Valor Justo (CPC 46);Não Iniciado;⭐⭐⭐
+29;Contabilidade Geral;Subvenções e Assistências Governamentais (CPC 07);Não Iniciado;⭐⭐⭐
+30;Contabilidade Geral;Instrumentos Financeiros (CPC 48);Não Iniciado;⭐⭐⭐
+31;Contabilidade Geral;Custos de Transação e Prêmios na Emissão de Títulos;Não Iniciado;⭐⭐⭐
+32;Contabilidade Geral;Análise das Demonstrações Contábeis (principais tópicos);Não Iniciado;⭐⭐⭐
+Extra;Contabilidade Geral;Efeitos das mudanças nas taxas de câmbio (CPC 02);Não Iniciado;⭐⭐⭐
+0;AFO;PPA, LDO, LOA e Planos Orçamentários;Não Iniciado;⭐⭐
+1;AFO;Princípios Orçamentários;Não Iniciado;⭐⭐
+2;AFO;Créditos Ordinários e Adicionais;Não Iniciado;⭐⭐
+3;AFO;Ciclo e Processo Orçamentário;Não Iniciado;⭐⭐
+4;AFO;Conceito e Natureza Jurídica;Não Iniciado;⭐⭐
+5;AFO;Receita Pública: Conceito e Classificação;Não Iniciado;⭐⭐
+6;AFO;Despesa Pública: Conceito e Classificação;Não Iniciado;⭐⭐
+7;AFO;Estrutura Programática;Não Iniciado;⭐⭐
+8;AFO;Estágios da Receita e da Despesa;Não Iniciado;⭐⭐
+9;AFO;Restos a Pagar e DEA;Não Iniciado;⭐⭐
+10;AFO;Programação e Execução Financeira;Não Iniciado;⭐⭐
+11;AFO;LRF: Introdução e Planejamento;Não Iniciado;⭐⭐⭐
+12;AFO;LRF: Despesa com Pessoal;Não Iniciado;⭐⭐⭐
+13;AFO;LRF: Transparência e Controle;Não Iniciado;⭐⭐⭐
+14;AFO;LRF: Dívida e Endividamento;Não Iniciado;⭐⭐⭐
+15;AFO;Questões Extras FGV (Extra);Não Iniciado;⭐⭐
+16;AFO;Questões Extras CEBRASPE (Extra);Não Iniciado;⭐⭐

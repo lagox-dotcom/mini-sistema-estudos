@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Planner de Estudos</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f4f6f8;
+padding:40px;
+}
+
+.card{
+background:white;
+padding:20px;
+margin:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>📚 Meu Planner de Estudos</h1>
+
+<div class="card">
+
+<h2>Plano de Hoje</h2>
+
+<button onclick="carregarPlanner()">Carregar</button>
+
+<ul id="planner"></ul>
+
+</div>
+
+<script>
+
+async function carregarPlanner(){
+
+let r = await fetch("/planner/hoje")
+
+let data = await r.json()
+
+let lista = document.getElementById("planner")
+
+lista.innerHTML=""
+
+data.forEach(aula=>{
+
+let li=document.createElement("li")
+
+li.innerText=aula.disciplina+" - "+aula.assunto
+
+lista.appendChild(li)
+
+})
+
+}
+
+</script>
+
+</body>
+</html>
