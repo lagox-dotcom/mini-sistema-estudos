@@ -36,18 +36,14 @@ if menu == "📅 Painel de Metas & Planner":
     st.subheader("🚀 Minhas Metas")
     col1, col2, col3 = st.columns(3)
     
-    # Buscamos dados do dashboard para alimentar as metas
+   # Buscamos dados do dashboard para alimentar as metas
     stats = get_data("dashboard/")
-    total_horas = sum([d.get('horas_estudadas', 0) for d in stats]) if stats else 0
     
-    with col1:
-        st.metric("Meta do Dia", "4h Líquidas", "Foco!")
-    with col2:
-        st.metric("Meta da Semana", "24h", "+2h vs ontem")
-    with col3:
-        st.metric("Acumulado do Mês", f"{total_horas}h", "Rumo à SEFIN!")
-
-    st.divider()
+    # Garantimos que stats seja uma lista antes de tentar somar
+    if isinstance(stats, list):
+        total_horas = sum([d.get('horas_estudadas', 0) for d in stats if isinstance(d, dict)])
+    else:
+        total_horas = 0
 
     # MOTOR 3R: DISCIPLINAS DO DIA
     st.subheader("🧠 Planner Inteligente (Motor 3R)")
